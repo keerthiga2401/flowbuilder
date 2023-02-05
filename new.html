@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Flow chart</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body >
+          <div class="left" style=" width: 7%; height: 650px; float:left; border: 1px solid black; overflow: hidden;">
+        <br>  
+           <center style="color: blue">Toolbar</center>
+           
+           <br>
+          <center><div class="rectangle" id="rectanglei" draggable="true" ondragstart="drag(event)"  ></div>
+          <br>
+          <div class="correc" id="correci" draggable="true" ondragstart="drag(event)"></div>
+          <br>
+          <div class="rectangle" id="rectanglei" draggable="true" ondragstart="drag(event)"></div>
+           <br>
+          <div class="oval" id="ovali" draggable="true" ondragstart="drag(event)"></div>
+           <br>
+           <div class="square" id="squarei" draggable="true" ondragstart="drag(event)"></div>
+           <br>
+           <div class="circle" id="circlei" draggable="true" ondragstart="drag(event)"></div>
+           <br>
+           <div class="diamondd" id="diamondi" draggable="true" ondragstart="drag(event)"></div>
+           <br>
+           <div class="parallelogram" id="parallelogrami" draggable="true" ondragstart="drag(event)"></div>
+           <br>
+           <div class="octaon" id="octagoni" draggable="true" ondragstart="drag(event)"></div>
+           <div class="zt">  
+            <button id="zoom-in-button">Zoom in</button>
+           <button id="zoom-out-button">Zoom Out</button>
+</div>
+      </div>  
+  </center>
+        <div  id="page-content" class="drop" ondrop="drop(event)" ondragover="allowDrop(event)" style=" width:92%; height: 650px; float:right;   overflow: hidden;">
+        
+            </div>
+         
+</body>
+</html>
